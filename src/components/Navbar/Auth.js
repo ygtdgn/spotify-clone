@@ -4,8 +4,8 @@ import { Icon } from "Icons";
 function Auth() {
 
     const user = {
-        name: 'Tayfun Erbilen',
-        avatar: 'https://i.scdn.co/image/ab6775700000ee856fca122911ed9eec4ce60c1e'
+        name: 'Yiğit Doğan',
+        avatar: 'https://avatars.githubusercontent.com/u/39031288?v=4'
     }
 
     return (

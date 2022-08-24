@@ -5,38 +5,53 @@ function Home() {
 	const items = [
 		{
 			id: 1,
-			title: 'Intouchables - Soundtracks OST',
-			description: 'Original Soundtrack',
-			image: 'https://i.scdn.co/image/ab67706c0000da84fcb8b92f2615d3261b8eb146',
-			type: 'album'
+			title: 'Kezzo - Arama',
+			description: 'Arama',
+			songtitle: 'Arama',
+			artist: 'Kezzo',
+			image: 'https://i.scdn.co/image/ab67616d0000b273acdcb5e7b9b3553f7ec72362',
+			type: 'album',
+			src: 'https://ygtdgn.com/project-audio/kezzo-arama.mp3'
 		},
 		{
 			id: 2,
-			title: 'Peaceful Piano',
-			description: 'Relax and indulge with beautiful piano pieces',
-			image: 'https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6',
-			type: 'album'
+			title: 'Allame, Kezzo - Soru',
+			songtitle: 'Soru',
+			description: 'Anakronik',
+			artist: 'Allame, Kezzo',
+			image: 'https://upload.wikimedia.org/wikipedia/tr/0/07/Anakronik-album.jpg',
+			type: 'album',
+			src: 'https://ygtdgn.com/project-audio/allame-kezzo-soru.mp3'
 		},
 		{
 			id: 3,
-			title: 'Hang Massive',
+			title: 'Joker',
 			description: 'Artist',
-			image: 'https://i.scdn.co/image/ab67616100005174802686196d39eb0b7b5cd8b1',
-			type: 'artist'
+			artist: 'Joker',
+			songtitle: 'Bi Kivilcim Yeter',
+			image: 'https://i.scdn.co/image/ab6761610000e5ebb0cef9275c5cd439baf12c77',
+			type: 'artist',
+			src: 'https://ygtdgn.com/project-audio/bi-kivilcim-yeter-joker.mp3'
 		},
 		{
 			id: 4,
-			title: 'Intouchables - Soundtracks OST',
-			description: 'Original Soundtrack',
-			image: 'https://i.scdn.co/image/d39397d2f6a1525b3fe90369c89ea2d94aac5714',
-			type: 'podcast'
+			title: 'Haftalık Gündem Değerlendirmesi 2022/33',
+			description: 'Teknoseyir',
+			songtitle: 'Haftalık Gündem Değerlendirmesi 2022/33',
+			artist: 'Teknoseyir',
+			image: 'https://i.scdn.co/image/62c2ecc8138caf88f04305b307bbd9d5d8adcccb',
+			type: 'podcast',
+			src: 'https://ygtdgn.com/project-audio/haftalik-gundem-33.mp3'
 		},
 		{
 			id: 5,
-			title: 'Intouchables - Soundtracks OST',
-			description: 'Original Soundtrack',
-			image: 'https://i.scdn.co/image/ab67706c0000da84fcb8b92f2615d3261b8eb146',
-			type: 'album'
+			title: 'Defkhan - Hayatim bi Battle',
+			description: 'Hayatim bi Battle',
+			songtitle: 'Hayatim bi Battle',
+			artist: 'Defkhan',
+			image: 'https://i.scdn.co/image/ab67616d0000b27375fbc1c088361e3359259874',
+			type: 'album',
+			src: 'https://ygtdgn.com/project-audio/Defkhan-Hayatim-bi-Battle.mp3'
 		}
 	]
 
@@ -53,7 +68,7 @@ function Home() {
 				items={items}
 			/>
 			<Section
-				title="Made For Tayfun Erbilen"
+				title="Made For Yigit Dogan"
 				more="/blabla"
 				items={items}
 			/>

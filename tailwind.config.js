@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
@@ -13,6 +12,9 @@ module.exports = {
       },
       fontSize: {
         s: '0.813rem'
+      },
+      boxShadow: {
+        spotify: '0 2px 4px 0 rgb(0 0 0 / 20%)'
       }
     },
   },
