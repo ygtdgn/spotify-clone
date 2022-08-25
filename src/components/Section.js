@@ -17,3 +17,4 @@ function Section({ title, more = false, items }) {
 }
 
 export default Section
+
