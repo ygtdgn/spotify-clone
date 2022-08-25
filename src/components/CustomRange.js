@@ -17,7 +17,7 @@ function CustomRange({ value, step, min, max, onChange }) {
                 >
                     <div
                         ref={props.ref}
-                        className="h-1 w-full rounded-md self-center"
+                        className="h-1 w-full rounded-md self-center "
                         style={{
                             background: getTrackBackground({
                                 values: [value],
