@@ -13,10 +13,11 @@ function Content() {
 				<Routes>
 					<Route exact path="/" element={<Home />}>
 					</Route>
-					<Route path="/search" element={<Search />}>
-					</Route>
-					<Route path="/collection" element={<Collection />} >
-					</Route>
+						<Route path="/search" element={<Search />}>
+						</Route>
+						<Route path="/collection" element={<Collection />} >
+						</Route>
+					
 				</Routes>
 			</div>
 		</main>
